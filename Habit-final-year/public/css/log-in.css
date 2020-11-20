@@ -1,0 +1,85 @@
+
+/* BASIC */
+
+/*
+This dosent do much, some minior differences
+html {
+    background-color: #56baed;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  }
+  
+  a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  */
+  
+
+  
+  /* STRUCTURE */
+  
+  
+  .wrapper { /*Put wrapper box in the center of the page*/
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+  #formContent {
+    background: #fff;
+    border-style: solid;
+    border-radius: 10%; 
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  #title{
+    font-size: 200%;
+  }
+
+  /*For now I put a br but later we can add some padding to the bottom*/
+  #row1, #row2{
+  display: flex;
+  justify-content: space-between;
+  max-width: 270px; /*If we make it smaller it may cause problems since password is more characters then E-mail*/
+  margin: 0 auto; /*Not sure what this does, I think it keeps it centerd*/
+  }
+
+
+  /*From a design standpoint im not sure if its a good idea to take out the border.
+  Also I dont know how to rake out the border and have it align with the text*/
+  #row1 input, #row2 input{
+    background-color: none;
+    outline: 0;
+    /* border-width: 0 0 2px;  */
+    color: black;
+  }
+
+  #row3 #signIn{
+    margin-right: 3%;
+  }
+  #row3 #remember-me{ /*So we can have some space between the checkbox and text*/
+    margin-left: 1%;
+  }
+
+  
+
+
+  
+  
+  
+  
